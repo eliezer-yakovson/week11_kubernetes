@@ -27,4 +27,13 @@ kubectl logs streamlit-pod
 kubectl get pod
 kubectl get service
 
+#commend to git
+git add .
+git commit -m ""
+git push origin main
+git marge
+git Checkhaot
+
+
+
 
