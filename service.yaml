@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: streamlit-service
 spec:
+  selector:
+      app: streamlit-app
   type: NodePort
   selector:
     app: streamlit-app

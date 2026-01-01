@@ -21,3 +21,10 @@ kubectl get pods
 #Commands for uploading to Dockerhaeb
 docker tag streamlit_app:latest eliezer206568107/streamlit_app:latest  
 docker push eliezer206568107/streamlit_app:latest  
+
+# Commands to test 
+kubectl logs streamlit-pod  
+kubectl get pod
+kubectl get service
+
+
