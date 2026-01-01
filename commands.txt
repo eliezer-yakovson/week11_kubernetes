@@ -1,3 +1,7 @@
+קבלתי אישור מניר להוסיף קבצי MD לאחר המבחן עקב יציאה מוקדמת לצורך רפואי
+
+
+
 # Commands to be used
 # Step 1: Clone the repository
 git clone .....
@@ -31,9 +35,8 @@ kubectl get service
 git add .
 git commit -m ""
 git push origin main
-git marge
-git Checkhaot
-
+git marge ....  ....
+git checkout -b ....
 
 
 
