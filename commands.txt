@@ -1,0 +1,6 @@
+# Commands to be used
+# Step 1: Clone the repository
+git clone .....
+# Step 2: Build the Docker image
+docker build -t streamlit_app:latest .
+
