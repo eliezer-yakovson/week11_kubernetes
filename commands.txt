@@ -7,3 +7,6 @@ docker build -t streamlit_app:latest .
 docker run -p 8080:8080 streamlit_app:latest
 # Step 4: Start Minikube
 minikube start
+
+# Step 5: Apply the Pod configuration
+kubectl apply -f pod.yaml
