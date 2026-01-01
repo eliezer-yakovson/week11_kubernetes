@@ -7,6 +7,17 @@ docker build -t streamlit_app:latest .
 docker run -p 8080:8080 streamlit_app:latest
 # Step 4: Start Minikube
 minikube start
-
 # Step 5: Apply the Pod configuration
 kubectl apply -f pod.yaml
+# Step 6: Apply the Service configuration
+kubectl apply -f service.yaml
+# Step 7: Get the service URL
+minikube service streamlit-service --url
+# Step 8: Check Pod logs
+kubectl logs streamlit-pod
+# Step 9: Check Pod status
+kubectl get pods
+
+#Commands for uploading to Dockerhaeb
+docker tag streamlit_app:latest eliezer206568107/streamlit_app:latest  
+docker push eliezer206568107/streamlit_app:latest  
