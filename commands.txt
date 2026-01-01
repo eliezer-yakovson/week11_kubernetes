@@ -3,4 +3,7 @@
 git clone .....
 # Step 2: Build the Docker image
 docker build -t streamlit_app:latest .
-
+# Step 3: Run the Docker container locally (for testing)
+docker run -p 8080:8080 streamlit_app:latest
+# Step 4: Start Minikube
+minikube start
